@@ -40,6 +40,12 @@ You may also choose to save a step and simply select your XCode project plugins 
 The SplashScreen.js is generally moved into the www folder manually and NOT a part of the XCode project. You can do this on the file-system directly by copying the file over.  Be sure to include the SplashScreen.js with a script tag in your html file that will interact with it, and do this AFTER including phonegap.js 
 
 
+Known Bugs
+---
+
+There´s a flickering caused by an delay, where PhoneGaps original loading screen gets hidden and this SplashScreen gets shown.
+
+
 License
 ---
 
