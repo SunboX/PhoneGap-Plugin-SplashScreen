@@ -26,7 +26,7 @@
 	UIImage* image;
 	if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
 	{
-		// The device is an iPad running iPhone 3.2 or later
+		// The device is an iPad running iOS 3.2 or later
 		if([UIApplication sharedApplication].statusBarOrientation == 1)
 			image = [[UIImage alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"Default-Portrait" ofType:@"png"]];
 		else 
